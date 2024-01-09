@@ -1,0 +1,80 @@
+/*
+  jPlayer tweaked by Jad Abi Hanna
+  info@kreactivdesign.com
+ */
+
+
+.player-content{
+	width:100%;
+	display:inline-table;	
+}
+
+.player{
+	background-color:#762123;
+	padding:0.5%;
+	float:left;
+	width:100%;	
+}
+
+
+.player-scores:hover,.player-lyrics:hover,.player-buy:hover{
+	opacity:0.75;
+}
+
+
+
+div.jp-seek-bar {
+	background-color:#fff;
+	width:0px;
+	height:5px;
+	cursor: pointer;
+	margin-top:10px;
+}
+div.jp-play-bar {
+	background-color:#e0cf9c;
+	width:0px;
+	height:5px;
+}
+
+
+
+
+div.jp-volume-bar {
+	background-color:#F00;
+	width:100%;
+	height:5px;
+	cursor: pointer;
+}
+
+
+div.jp-volume-bar-value {
+	background-color:#00C;
+	width:0px;
+	height:5px;
+}
+
+
+
+
+
+/* @group NO SOLUTION error feedback */
+
+.jp-no-solution {
+	padding:5px;
+	font-size:.8em;
+	background-color:#eee;
+	border:2px solid #009be3;
+	color:#000;
+	display:none;
+}
+
+/* @end */
+
+
+
+
+/* The seeking class is added/removed inside jPlayer */
+div.jp-seeking-bg {
+	background: url("jplayer.blue.monday.seeking.gif");
+}
+/* @end */

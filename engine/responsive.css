@@ -1,0 +1,48 @@
+@media only screen 
+and (max-width : 768px) {
+
+.menu-sep{
+	display:none;	
+}
+
+.menu-item{
+	margin-left:0px;
+	padding-top:5px !important;
+	padding-bottom:5px !important;
+	font-size:14px;
+	text-transform:uppercase
+}
+
+
+
+.navbar-default {
+	background-image:none;
+	background-color:inherit;
+	background-size:auto 100%;
+	background-repeat:repeat-x;
+    padding:0px;
+	padding-top:0px;
+	padding-bottom:5px;
+    border: 0;
+
+}
+
+.about-text{
+	margin-right:0px;
+	margin-bottom:20px;
+}
+
+.video-img{
+	margin:10px !important;
+}
+
+
+}
+
+
+
+
+@media only screen 
+and (min-width : 1568px) {
+
+}
